@@ -1,0 +1,134 @@
+body{
+  text-decoration: none;
+  font-family: helvetica;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  margin: auto auto;
+  justify-content: space-between;
+}
+
+#logo{
+  height: 40px;
+  padding: 3vw;
+}
+
+#userIcon{
+  width: 70px;
+}
+
+a{
+  text-decoration: none;
+  font-family: helvetica;
+  color: black;
+  font-size: 4vw;
+}
+
+.stockImg{
+  width: 100%;
+}
+
+
+/* -----------Titles----------- */
+
+h2{
+  margin: 0;
+  padding: 1vw;
+}
+
+h4{
+  margin: 0;
+  font-size: 2vw;
+  color: darkblue;
+}
+
+h5{
+  margin: 0;
+  font-size: 1.5vw;
+}
+
+p{
+  color: gray;
+}
+
+
+
+/* ------------the main block------------ */
+
+
+.mainBlock{
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+}
+
+
+/* ------------the learn block------------ */
+
+.learnContainer{
+  flex-basis: 20%;
+  margin: 1vw;
+}
+
+.learnBox{
+  background: gray;
+  margin-top: 2vw;
+  padding: 0.5vw;
+  border-radius: 8px;
+  box-shadow: 4px 8px 25px 1px rgba(0,0,0,0.25);;
+}
+
+
+/* ----------the investment tip block---------- */
+
+.articleContainer{
+  flex-basis: 60%;
+  margin: 1vw;
+}
+
+.tipsContainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3vw;
+}
+
+.tipsBox{
+  margin-top: 1vw;
+  padding: 1vw;
+  border-bottom: 1px solid lightgray;
+}
+
+
+/* ---------the statistical success block--------- */
+
+.statsContainer{
+  flex-basis: 20%;
+  margin: 1vw;
+  border-left: 1px solid gray;
+}
+
+.historyContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.historyBox{
+  padding: 0.5vw;
+  margin-top: 1vw;
+}
+
+
+/* --------the feature page--------- */
+
+.featureBlock{
+  padding: 5vw;
+}
